@@ -1,0 +1,96 @@
+---
+layout: post
+title:  "NEW DEV SETUP"
+date:   2014-12-14 22:52:25
+---
+
+I'm tired of trying to remember what to install everytime a new computer comes 
+through my hands.
+
+So here is this.
+
+#### (MAC OS X edition)
+
+## Applications
+
+ey yo man, fuck xcode. It's going to make you download the cli toolz in order to use 
+the installed git bin that comes with the system (or to just be able to use a myriad of other tools).
+Like, I don't know why I keep using macs for this shit, but whatevs. At least 
+you don't have to download and install xcode in it's fucking entirely anymore. 
+So either just put up, shut up and download that shit, or go google around til you find some other way.
+
+### Essentials
+
+- chrome - with the [page speed](https://developers.google.com/speed/pagespeed/insights_extensions) dev tools. Because slow sites suck.
+- [iTerm2](http://iterm2.com) - install and `mv iTerm2.app iTerm.app`
+- [Alfred](http://www.alfredapp.com/) - GET DA POWERPACK YA CHEAP BASTARD
+- [rbenv](https://github.com/sstephenson/rbenv#installation) - via `brew install rbenv` or from src
+	- [ruby-build](https://github.com/sstephenson/ruby-build#readme) - mostly useful `brew install ruby-build` or from src [1]
+	- Install a few different versions of ruby to see how fucked we are. [2]
+- tmux - via `brew install tmux` or from src
+	- if using spicy-sammich, also `brew install reattach-to-user-namespace` [3]
+
+
+### Optional
+
+- [homebrew](http://brew.sh/) [4]
+- ctags
+- mtr/nmap (because networks are fun)
+
+### *notes*
+
+[1] There are tons of [plugins](https://github.com/sstephenson/rbenv#plugisn) for rbenv that I might check out one day.
+
+[2] I usually install the latest release for a few different versions (includes previews/rc's) as well as a release *I know actually works*. 
+I usually enjoy doing this as it provides a nice opportunity to try new rb versions 
+and report any wtf's. e.g. At the time of writing this I had these:
+
+{% highlight bash %}
+mmay:~	$ rbenv versions
+  system
+* 2.0.0-p598
+  2.1.5
+  2.2.0-preview2
+{% endhighlight %}
+
+And in the process of getting a working ruby I discovered all of this
+
+- `2.2.0-preview2` and jekyll 2.5 hate each other (because of the liquid template gem thing)
+- `2.1.5` and jekyll 2.5/2.4 hate each other ([no idea](http://stackoverflow.com/questions/26797550/jekyll-server-error-no-such-file-or-directory-rb-sysopen))
+- `2.0.0-p598` works with jekyll 2.5 or 2.4 (who wudda thunk it)
+
+[3] More on tmux copy/paste shenanigans over on [thoughbot](http://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future)
+
+[4] I installed rbenv and ruby-build from src. I'm slowly becoming less of a fan of 
+`brew`ing and more of a fan of installing from src. That said, brew can be really
+handy when you want to quickly do a `tree` or `nmap` or something.
+
+
+
+## Configs
+
+I keep most config files in [spicy-sammich](https://github.com/mmay/spicy-sammich) on github.
+Lots of time has gone into them so that this section can be quick and easy.
+Included are configs for 
+
+- bash [1]
+- vim
+- tmux [2]
+
+Also included are bash scripts to properly link everything to `~` and 
+cleanup if you're messing around.
+
+#### *notes*
+
+[1] People always talking about zsh and other shit. I dunno man, I've just always 
+stuck with bash. Maybe I'll zsh it one day. Maybe I'll also emacs one day. :trollface:
+
+[2] I use the hell out of tmux windows and panes. Mostly because I can't stand the 
+iterm splits. And I don't care enough to invest in iterm settings.
+
+- use bash vi mode with `set -o vi`
+- I know I also used to be a noob, but tmux-powerline + iterm and tmux copy/paste + iterm has gotten way better.
+- tmux prefix binds to `C-a` and uses vi bindings for movement
+- hit `Enter` to save in vim
+
+Hey look, now it's time to go write some code.
