@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <div class="site-title">{{ site.title }}</div>
+	  <a href='/'><div class="site-title">{{ site.title }}</div></a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -19,6 +19,7 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+          <a class="page-link" href="/word-matter">word matter</a>
       </div>
     </nav>
 
