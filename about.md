@@ -8,19 +8,8 @@ Hello there, internet traveler.
 
 #### My name is Michael May.
 
-By professional experience and education I'm an engineer and entrepreneur. I have fun doing it, 
-and like to think I'm pretty decent at it. Mostly because I give a damn and work hard.
 
-In my personal reality I enjoy taking part in what I consider this remarkably short life.
-I try to work hard towards becoming wise enough and brave enough to leave behind 
-thought-provoking ideas, innovations, and inventions for those who come after me 
-so that human existance may continue to thrive and expand to the furthest corners of the universe.
-
----
-
-### current pursuits of happiness
-
-I work at [Fastly, Inc.](http://www.fastly.com) as a software engineer in San Francisco, CA.
+I work at [Fastly, Inc.](http://www.fastly.com) in San Francisco, CA.
 
 In November 2013 Fastly, Inc. [acquired](http://www.fastly.com/blog/ruby-rails-fastly/) CDN Sumo, LLC
 (founded by [Schneems](http://www.schneems.com/) and myself in October 2012 while eating tacos at Torchy's in Austin, TX).
@@ -28,7 +17,7 @@ In November 2013 Fastly, Inc. [acquired](http://www.fastly.com/blog/ruby-rails-f
 
 ---
 
-### previous companies and endeavours
+### past
 
 #### [CDN Sumo, LLC](http://www.crunchbase.com/organization/cdn-sumo)
 - Founded to make content delivery networks easily accessible
