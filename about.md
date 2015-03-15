@@ -6,18 +6,9 @@ permalink: about/
 
 Hello there, internet traveler.
 
-#### My name is Michael May.
-
-
-I work at [Fastly, Inc.](http://www.fastly.com) in San Francisco, CA.
-
-In November 2013 Fastly, Inc. [acquired](http://www.fastly.com/blog/ruby-rails-fastly/) CDN Sumo, LLC
-(founded by [Schneems](http://www.schneems.com/) and myself in October 2012 while eating tacos at Torchy's in Austin, TX).
-
-
 ---
 
-### past
+### past works
 
 #### [CDN Sumo, LLC](http://www.crunchbase.com/organization/cdn-sumo)
 - Founded to make content delivery networks easily accessible
@@ -49,10 +40,5 @@ hardware to a software approach and set out to make optimization software for da
 - virtualization (hyper-v, xen)
 - optimization
 
-
-#### [Gowalla, Inc](http://en.wikipedia.org/wiki/Gowalla)
-
-
-#### [Potomac Fusion](https://www.linkedin.com/company/potomac-fusion)
 
 
